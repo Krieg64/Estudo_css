@@ -13,8 +13,8 @@ header {
 }
 
 nav {
-  text-align: end;
   margin-right: 10px;
+  display: block;
 }
 
 a {
@@ -24,14 +24,16 @@ a {
   font-family: "Rubik", sans-serif;
   font-weight: 800;
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 .links:hover {
   align-items: baseline;
 }
-a::before {
+.links::before {
   content: "";
   background-color: #f25041;
   width: 10px;
@@ -39,17 +41,15 @@ a::before {
   margin-right: 10px;
 }
 
-#button {
+.button {
   background-color: #f25041;
-  padding: 0.4rem;
-  margin: 0.4rem;
+  padding: 0.5rem;
   box-shadow: 5px 5px 1px black;
+  transition: transform 90ms linear;
+  margin: 0px 20x;
 }
-#button:hover {
-  background-color: RGB(242, 80, 65, 0.75);
-  font-size: 22px;
-  padding: 0.4rem 0.384rem;
-  margin: 0.31rem 0rem;
+.button:hover {
+  transform: scale(1.02);
 }
 
 img {
@@ -58,4 +58,55 @@ img {
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
   width: 45px;
   height: 45px;
+}
+
+.section_home {
+  width: 100%;
+  height: 90vh;
+  background-image: url("./files/teste_avatar.png");
+  background-size: 85%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgba(10, 81, 89);
+}
+.container_main_info {
+  width: 65%;
+  height: inherit;
+  float: left;
+  display: block;
+  padding-top: 5rem;
+}
+.container_info {
+  width: 45%;
+  height: auto;
+  background-color: #77acf2;
+  padding: 2rem;
+  display: block;
+  position: inherit;
+  box-shadow: 5px 5px 1px black;
+  margin: 1rem auto;
+}
+.container_info h1 {
+  display: flex;
+  justify-content: center;
+  color: #f25041;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px black;
+  font-size: 3rem;
+}
+.container_info h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px black;
+  font-size: 2rem;
+}
+.container_main_buttons {
+  width: 65%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
 }
