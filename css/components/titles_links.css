@@ -1,4 +1,4 @@
-a {
+.links {
   color: #fff;
   display: inline-flex;
   font-size: 20px;
@@ -21,7 +21,7 @@ a {
   margin-right: 10px;
 }
 
-.container_info h1 {
+.title {
   text-align: center;
   color: #f25041;
   font-family: "VT323", monospace;
@@ -29,7 +29,7 @@ a {
   text-shadow: 3px 3px 0px black;
   font-size: 4rem;
 }
-.container_info h2 {
+.subtitle {
   text-align: center;
   color: white;
   font-family: "VT323", monospace;

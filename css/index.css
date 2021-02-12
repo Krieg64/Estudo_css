@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: #f2762e;
   display: flex;
   justify-content: space-between;
@@ -7,12 +7,7 @@ header {
   padding: 10px;
 }
 
-nav {
-  margin-right: 10px;
-  display: block;
-}
-
-img {
+.icon {
   border: 2px solid #f25041;
   border-radius: 10px;
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
