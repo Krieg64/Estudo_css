@@ -1,0 +1,16 @@
+.button {
+  background-color: #f25041;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 1px black;
+  transition: transform 90ms linear;
+  margin: 0px 20x;
+}
+.button:hover {
+  transform: scale(1.02);
+}
+.container_main_buttons {
+  width: 65%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}

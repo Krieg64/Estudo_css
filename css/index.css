@@ -11,27 +11,6 @@ nav {
   margin-right: 10px;
   display: block;
 }
-.links:hover {
-  align-items: baseline;
-}
-.links::before {
-  content: "";
-  background-color: #f25041;
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-}
-
-.button {
-  background-color: #f25041;
-  padding: 0.5rem;
-  box-shadow: 5px 5px 1px black;
-  transition: transform 90ms linear;
-  margin: 0px 20x;
-}
-.button:hover {
-  transform: scale(1.02);
-}
 
 img {
   border: 2px solid #f25041;
@@ -59,18 +38,9 @@ img {
   padding-top: 5rem;
 }
 .container_info {
-  width: 45%;
-  height: auto;
+  display: inline-block;
   background-color: #77acf2;
   padding: 2rem;
-  display: block;
-  position: inherit;
   box-shadow: 5px 5px 1px black;
-  margin: 1rem auto;
-}
-.container_main_buttons {
-  width: 65%;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-evenly;
+  margin: 1rem;
 }

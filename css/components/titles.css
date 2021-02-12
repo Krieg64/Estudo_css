@@ -10,9 +10,19 @@ a {
   align-items: center;
   justify-content: center;
 }
+.links:hover {
+  align-items: baseline;
+}
+.links::before {
+  content: "";
+  background-color: #f25041;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
 .container_info h1 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: #f25041;
   font-family: "VT323", monospace;
   font-weight: 700;
@@ -20,8 +30,7 @@ a {
   font-size: 4rem;
 }
 .container_info h2 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: white;
   font-family: "VT323", monospace;
   font-weight: 700;
