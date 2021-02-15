@@ -1,0 +1,38 @@
+.Titles {
+  font-family: "VT323", monospace;
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+#view_skills {
+  width: 80vw;
+  height: auto;
+  column-count: 2;
+  margin: 2rem auto;
+}
+.components_skills {
+  display: block;
+  display: inline-flex;
+  margin: 0.5rem 0;
+}
+.skills_info {
+  width: 30vw;
+  padding: 1rem;
+}
+.skilss_img {
+  width: 80px;
+  height: 70px;
+  object-fit: contain;
+  margin: 0 auto;
+  padding: 1.3rem;
+}
+.skills_Title {
+  font-family: "VT323", monospace;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 3px 3px 0 black;
+  padding: 0.3rem;
+}

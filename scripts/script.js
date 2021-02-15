@@ -31,11 +31,18 @@ var array =   [
     },
 ]
 
+var view_skills = document.getElementById('view_skills')
+
 array.forEach(tit => {
-    reste.innerHTML += `
-    <img id="skilss_img" src=${tit.img}>
-    <h2 id="skills_Title" >${tit.name}</h2>
-    <progress class="skills_loading" value=${tit.loading} max="100">loading</progress>`
+    view_skills.innerHTML += `
+    <div class="components_skills" >
+        <img class="skilss_img" src=${tit.img}>
+        <div class="skills_info">
+            <h2 class="skills_Title" >${tit.name}</h2>
+            <progress class="skills_loading" value=${tit.loading} max="100">texto</progress>
+        </div>
+    </div>
+    `
   })
 
 
