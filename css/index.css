@@ -28,7 +28,7 @@
 }
 .container_main_info {
   width: 50%;
-  height: inherit;
+  height: auto;
   float: left;
   display: block;
   display: inline-flex;
