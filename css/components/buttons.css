@@ -17,9 +17,3 @@
 .button:hover {
   transform: scale(1.02);
 }
-.container_main_buttons {
-  width: 65%;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-evenly;
-}
