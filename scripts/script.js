@@ -35,10 +35,10 @@ var view_skills = document.getElementById('view_skills')
 
 array.forEach(tit => {
     view_skills.innerHTML += `
-    <div class="components_skills" >
-        <img class="skilss_img" src=${tit.img}>
+    <div class="skill_component" >
+        <img class="skills_img" src=${tit.img} alt=${tit.name}>
         <div class="skills_info">
-            <h2 class="skills_Title" >${tit.name}</h2>
+            <h3 class="title -skills" >${tit.name}</h3>
             <progress class="skills_loading" value=${tit.loading} max="100">texto</progress>
         </div>
     </div>
