@@ -1,12 +1,3 @@
-.Titles {
-  font-family: "VT323", monospace;
-  font-size: 5rem;
-  letter-spacing: 0.5rem;
-  color: white;
-  padding: 3rem;
-  display: flex;
-  justify-content: center;
-}
 #view_skills {
   width: 80vw;
   height: auto;
