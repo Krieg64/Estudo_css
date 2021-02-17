@@ -1,0 +1,14 @@
+.view.project {
+  width: 100vw;
+  display: inline-flex;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.project-img {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+  padding: 2rem;
+}
