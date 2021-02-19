@@ -39,7 +39,7 @@ array.forEach(tit => {
         <img class="skills_img" src=${tit.img} alt=${tit.name}>
         <div class="skills_info">
             <h3 class="title -skills" >${tit.name}</h3>
-            <progress class="skills_loading" value=${tit.loading} max="100">texto</progress>
+            <progress class="skills_loading" value=${tit.loading} max="100" data-label="50% Complete">texto</progress>
         </div>
     </div>
     `

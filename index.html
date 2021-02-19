@@ -9,34 +9,35 @@
     <link rel="stylesheet" href="./css/components_boxes.css">
     <link rel="stylesheet" href="./css/components/skill-component.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/components/home-component.css">
+    <link rel="stylesheet" href="./css/components/header-component.css">
     <link rel="stylesheet" href="./css/components/project-component.css">
     <link rel="stylesheet" href="./css/components/skill-loading.css">
     <link rel="stylesheet" href="./css/components/titles-links.css">
-    <link rel="stylesheet" href="./css/components/button-header.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Caio</title>
 </head>
 <body>
-    <header class="header">
-        <img class="icon" src="./files/avatar.png" width='4%' alt="avatar">
+    <header class="header-component">
+        <img class="icon_header" src="./files/avatar.png" width='4%' alt="avatar">
         <nav >
-            <a class="links" href="#skills">Skills</a>
-            <a class="links" href="">Projetos</a>
-            <a class="links" href="">Sobre</a>
-            <a class="links" href="">Contatos</a>
-            <a class="button" href="">Download CV</a>
+            <a class="links_header" href="#skills">Skills</a>
+            <a class="links_header" href="#project">Projetos</a>
+            <a class="links_header" href="">Sobre</a>
+            <a class="links_header" href="">Contatos</a>
+            <a class="button header" href="">Download CV</a>
         </nav>
     </header>
-    <section class="section_home">
+    <section class="Box home">
         <div class="container_main_info">
             <div class="container_info">
                 <h1 class="title">Caio Fabio</h1>
                 <h2 class="subtitle">Full Stack Developer</h2>
             </div>
             <div class="container_main_buttons">
-                <a class="button" href="">Download CV</a>
-                <a class="button"  href="">Contatos</a>
+                <a class="button home" href="">Download CV</a>
+                <a class="button home"  href="">Contatos</a>
             </div>
         </div>
     </section>
@@ -45,12 +46,18 @@
         <article id="view_skills">
         </article>
     </section>
-    <section id="skills" class="Box project">
+    <section id="project" class="Box project">
         <h2 class="title -second">Projetos</h2>
         <article class  ="view project">
-                <img class="project-img" src="./files/collabcode.png" alt="collabcode">
-                <img class="project-img" src="./files/collabcode.png" alt="collabcode">
-                <img class="project-img" src="./files/collabcode.png" alt="collabcode">
+                <figure class="project-img">
+                    <img src="./files/logo-collabcode.png" alt="collabcode">
+                </figure>
+                <figure class="project-img">
+                    <img src="./files/logo-collabcode.png" alt="collabcode">
+                </figure>
+                <figure class="project-img">
+                    <img src="./files/logo-collabcode.png" alt="collabcode">
+                </figure>
         </article>
     </section>
     <script src="./scripts/script.js"></script>
